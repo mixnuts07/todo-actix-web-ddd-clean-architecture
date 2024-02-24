@@ -1037,6 +1037,30 @@ dependencies = [
 ]
 
 [[package]]
+name = "todo-domain"
+version = "0.1.0"
+
+[[package]]
+name = "todo-driver"
+version = "0.1.0"
+
+[[package]]
+name = "todo-gateway"
+version = "0.1.0"
+
+[[package]]
+name = "todo-port"
+version = "0.1.0"
+
+[[package]]
+name = "todo-rest"
+version = "0.1.0"
+
+[[package]]
+name = "todo-usecase"
+version = "0.1.0"
+
+[[package]]
 name = "tokio"
 version = "1.36.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"

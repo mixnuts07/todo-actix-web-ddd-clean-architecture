@@ -7,3 +7,13 @@ edition = "2021"
 
 [dependencies]
 actix-web="4"
+
+[workspace]
+members = [
+    "todo-usecase",
+    "todo-port",
+    "todo-domain",
+    "todo-gateway",
+    "todo-driver",
+    "todo-rest"
+]
