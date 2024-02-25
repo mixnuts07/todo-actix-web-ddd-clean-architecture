@@ -3,11 +3,6 @@ name = "todo-actix-web-ddd-clean-architecture"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
-actix-web="4"
-
 [workspace]
 members = [
     "todo-usecase",
@@ -17,3 +12,8 @@ members = [
     "todo-driver",
     "todo-rest"
 ]
+[workspace.dependencies]
+actix-web="4"
+
+[dependencies]
+actix-web={workspace = true}
